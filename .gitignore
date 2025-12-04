@@ -1,0 +1,5 @@
+out/
+out_debug/
+*.o
+.vscode/
+*.out
