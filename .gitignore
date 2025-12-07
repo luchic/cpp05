@@ -3,3 +3,4 @@ out_debug/
 *.o
 .vscode/
 *.out
+bureaucrat
