@@ -6,7 +6,7 @@
 /*   By: nluchini <nluchini@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 12:22:35 by nluchini          #+#    #+#             */
-/*   Updated: 2025/12/05 10:37:57 by nluchini         ###   ########.fr       */
+/*   Updated: 2025/12/05 10:46:12 by nluchini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void tooHighTest()
 		std::cout << br.getName() << std::endl;	
 	
 	}
-	catch(const Bureaucrat::GradeTooHighException& ex)
+	catch(const Bureaucrat::GradeTooLowException& ex)
 	{
 		std::cerr << ex.what() << '\n';
 	}	
@@ -35,7 +35,7 @@ void tooLowTest()
 		std::cout << br.getName() << std::endl;	
 	
 	}
-	catch(const Bureaucrat::GradeTooLowException& ex)
+	catch(const Bureaucrat::GradeTooHighException& ex)
 	{
 		std::cerr << ex.what() << '\n';
 	}	
