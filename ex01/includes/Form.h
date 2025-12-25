@@ -6,7 +6,7 @@
 /*   By: nluchini <nluchini@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 10:41:22 by nluchini          #+#    #+#             */
-/*   Updated: 2025/12/05 11:15:31 by nluchini         ###   ########.fr       */
+/*   Updated: 2025/12/25 16:02:14 by nluchini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ private:
 	bool _isSigned;
 	const int _gradeToSign;
 	const int _gradeToExecute;
-	/* data */
+
 public:
 	Form();
 	Form(const Form& other);
